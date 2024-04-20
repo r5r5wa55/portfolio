@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-we{
+    @apply bg-gradient-to-r from-orange-600 to-pink-800 inline-block text-transparent bg-clip-text 
+}
+.text-about{
+    @apply bg-gradient-to-r from-green-300 via-green-500 to-green-900 inline-block text-transparent bg-clip-text 
+}
+
+.bg-about{
+    @apply bg-gradient-to-r from-[#820000] via-[#D61C4E]   to-[#FFF80A]
+}
+
+body{
+    background: #000;
+}
