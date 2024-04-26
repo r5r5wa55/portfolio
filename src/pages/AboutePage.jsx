@@ -14,7 +14,7 @@ export default function AboutePage() {
           <div className="w-4/5 ">
             <div className="flex flex-col">
               <h1 className="text-6xl font-extrabold  text-about">
-                Burned out
+                we
               </h1>
               <h1 className="text-2xl font-extrabold  text-red-800">
                 หมดไฟกับการทำเว็บ <h1 className="text-we">!</h1>
