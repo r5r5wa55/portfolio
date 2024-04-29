@@ -10,10 +10,15 @@
     @apply bg-gradient-to-r from-green-300 via-green-500 to-green-900 inline-block text-transparent bg-clip-text 
 }
 
+
 .bg-about{
     @apply bg-gradient-to-r from-[#820000] via-[#D61C4E]   to-[#FFF80A]
 }
 
+.text-bug{
+    @apply bg-gradient-to-r from-[#820000] via-[#D61C4E]   to-[#FFF80A] inline-block text-transparent bg-clip-text 
+}
+
 body{
-    background: #000;
+    background: #181818;
 }

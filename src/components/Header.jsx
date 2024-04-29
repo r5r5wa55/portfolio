@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const [rightBar, setRightBar] = useState();
   return (
-    <div className="max-w-7xl mx-auto  bg-black">
+    <div className="max-w-7xl mx-auto  bg-[#181818]">
       <div className="flex justify-between items-center p-5 ">
         <Link to="/">
           <h1 className="text-we text-3xl font-bold">Portfolio</h1>
@@ -14,7 +14,9 @@ export default function Header() {
             <Link to="/about ">
               <li className="text-white py-2">About</li>
             </Link>
-            <li className="text-white">Work</li>
+            <Link to="/work">
+                <li className="text-white py-2">Work</li>
+              </Link>
             <li className="text-white">Contact</li>
           </ul>
           <button className="inline sm:hidden ">
@@ -39,7 +41,10 @@ export default function Header() {
               <Link to="/about">
                 <li className="text-white py-2">About</li>
               </Link>
-              <li className="text-white py-2">Work</li>
+              <Link to="/work">
+                <li className="text-white py-2">Work</li>
+              </Link>
+
               <li className="text-white py-2">Contact</li>
             </ul>
           </div>

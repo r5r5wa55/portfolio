@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutePage from "./pages/AboutePage";
 import Footer from "./components/Footer";
+import Work from "./pages/Work";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<AboutePage />} />
-       
+          <Route path="/work" element={<Work />} />
         </Routes>
         <Footer />
       </BrowserRouter>

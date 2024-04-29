@@ -9,7 +9,7 @@ import Project from "./Project";
 export default function Hero() {
   return (
     <div className="max-w-7xl mx-auto ">
-      <div className="grid sm:grid-cols-2  md:grid-cols-3 h-[110vh] sm:h-[70vh] bg-black mt-20">
+      <div className="grid sm:grid-cols-2  md:grid-cols-3 h-auto sm:h-[70vh] bg-[#181818] mt-20">
         <div className="col-span-1 h-auto my-auto flex items-center justify-center  mx-5">
           <img
             src={werapol}
@@ -47,7 +47,7 @@ export default function Hero() {
               Download Cv
             </button>
             <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-xl  p-1 w-full sm:w-44 my-5 sm:my-0">
-              <span className="flex  justify-center w-full bg-black text-white rounded-xl p-2 ">
+              <span className="flex  justify-center w-full bg-[#181818] text-white rounded-xl p-2 ">
                 Project
               </span>
             </button>
