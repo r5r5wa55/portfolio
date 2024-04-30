@@ -7,17 +7,19 @@
     @apply bg-gradient-to-r from-orange-600 to-pink-800 inline-block text-transparent bg-clip-text 
 }
 .text-about{
-    @apply bg-gradient-to-r from-green-300 via-green-500 to-green-900 inline-block text-transparent bg-clip-text 
+    @apply bg-gradient-to-r from-green-800 via-green-500 to-[#d6d019] inline-block text-transparent bg-clip-text 
 }
-
+.text-bug{
+    @apply bg-gradient-to-r from-[#820000] via-[#D61C4E]   to-[#FFF80A] inline-block text-transparent bg-clip-text 
+}
+.text-work{
+    @apply bg-gradient-to-r from-blue-700 via-blue-600   to-pink-600 inline-block text-transparent bg-clip-text 
+}
 
 .bg-about{
     @apply bg-gradient-to-r from-[#820000] via-[#D61C4E]   to-[#FFF80A]
 }
 
-.text-bug{
-    @apply bg-gradient-to-r from-[#820000] via-[#D61C4E]   to-[#FFF80A] inline-block text-transparent bg-clip-text 
-}
 
 body{
     background: #181818;
