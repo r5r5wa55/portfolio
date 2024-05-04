@@ -6,7 +6,7 @@ export default function AboutePage() {
     <div className="h-auto">
 
       <div className="bg-wecolor h-60 flex flex-col justify-center items-center text-white  mb-0 mt-16">
-        <h2 className="font-bold text-2xl">HOME.test</h2>
+        <h2 className="font-bold text-2xl">HOME.test2</h2>
         <h1 className="text-6xl font-extrabold text-about m-0">About Us</h1>
       </div>
 
